@@ -1,19 +1,42 @@
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-const Header = ()=>{
-    return (
-        <div className="border-b border-gray-200">
-            <div className="container mx-100 px-8 flex justify-between">
-                <span className="text-3xl font-bold tracking-tight">
-                    <Link to='/'>HNF</Link>
-                </span>
-                <span className="flex space-x-8">
-                    <Link to='/login'>Log in</Link>
-                    <Link to='/signup'>Sign up</Link>
-                </span>
-            </div>
+const Header = () => {
+  return (
+    <div className="navbar">
+
+    <span className="batch1">
+    <a href="#home">Home</a>
+    </span>
+
+    
+    <a href="#findtalent">Find Talent</a>
+    <div className="dropdown">
+        <button className="dropbtn">Services</button>
+        <div className="dropdown-content">
+            <a href="#service1">IT & Computing</a>
+            <a href="#service2">Artificial Intelligence</a>
+            <a href="#service3">Machine Learning</a>
         </div>
-    )
+    </div>
+    <div className="dropdown">
+        <button className="dropbtn">Find Work</button>
+        <div className="dropdown-content">
+            <a href="#service1">Meta</a>
+            <a href="#service2">Microsoft</a>
+            <a href="#service3">Google</a>
+        </div>
+    </div>
+    <a href="#contact">Contact us</a>
+    
+
+    <span className="batch2">
+    <Link to='/login'>Log in</Link>
+    </span>
+    <Link to='/signup'>Sign up</Link>
+    
+    </div>    
+  );
 }
 
 export default Header;

@@ -1,3 +1,115 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+    margin: 0;
+    min-height: 100vh;
+    flex-direction: column;
+    display: flex;
+    padding: 0;
+}
+
+.navbar{
+    overflow: hidden;
+    background-color: grey;
+}
+
+.navbar a{
+  float: left;
+  display: block;
+  color: white; 
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.batch1 a{
+    margin-left: 150px;
+}
+
+.batch2 a{
+    margin-left: 850px;
+}
+
+.navbar a:hover {
+    background-color: green; 
+    color: black; 
+}
+
+.dropdown{
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: green;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 500px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.banner{
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 1530px;
+    height: 312px;
+    margin-top: 40px;
+    margin-left: 140px;
+    margin-right: 50px;
+}
