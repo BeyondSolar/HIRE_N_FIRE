@@ -113,3 +113,55 @@ footer a {
     margin-left: 140px;
     margin-right: 50px;
 }
+
+.sbanner{
+
+}
+
+.sbanner h6{
+    font-size: 100px;
+    font-family: "Fjalla One", sans-serif;
+    margin-left: 620px;
+    margin-top: 70px;
+}
+
+.sbanner h2{
+    font-size: 20px;
+    font-family: "Fjalla One", sans-serif;
+    margin-left: 650px;
+    margin-top: 10px;
+}
+
+.sbanner h1{
+    font-size: 16px;
+    font-family: "Fjalla One", sans-serif;
+    margin-left: 650px;
+    margin-top: 10px;
+}
+
+.photo2{
+    border: 5px solid black;
+    position: absolute;
+    border-radius: 10px;
+    width: 450px;
+    height: 530px;
+    margin-top: 500px;
+    margin-left: 140px;
+    margin-right: 50px;
+}
+
+.subtn{
+    font-size: 16px;
+    font-family: "Fjalla One", sans-serif;
+    margin-left: 650px;
+    margin-top: 40px;
+    background-color: white;
+    border: 1px solid green;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.subtn:hover{
+    background-color: green;
+    
+}
