@@ -1,8 +1,8 @@
-# DevConnect
+# HirenFire
 
 ## Introduction
 
-DevConnect is a revolutionary web application that serves as a bridge between talented developers and recruiters seeking their expertise. Our platform aims to streamline the recruitment process by facilitating direct connections between developers and companies, emphasizing skillsets and rewarding hard work.
+HirenFire is a revolutionary web application that serves as a bridge between talented developers and recruiters seeking their expertise. Our platform aims to streamline the recruitment process by facilitating direct connections between developers and companies, emphasizing skillsets and rewarding hard work.
 
 ## Features
 
@@ -23,4 +23,4 @@ DevConnect is a revolutionary web application that serves as a bridge between ta
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/devconnect.git
+   git clone https://github.com/yourusername/HirenFire.git
