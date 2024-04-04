@@ -1,10 +1,9 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+//import React from 'react';
+import { BrowserRouter as Router, Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <div className="navbar">
-
     <span className="batch1">
     <a href="#home">Home</a>
     </span>
@@ -29,12 +28,11 @@ const Header = () => {
     </div>
     <a href="#contact">Contact us</a>
     
-
-    <span className="batch2">
-    <Link to='/login'>Log in</Link>
-    </span>
-    <Link to='/signup'>Sign up</Link>
     
+        <span className="batch2">
+        <Link to='/login'>Log in</Link>
+        </span>
+        <Link to='/signup'>Sign up</Link>
     </div>    
   );
 }

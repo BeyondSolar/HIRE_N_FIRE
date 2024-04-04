@@ -1,5 +1,5 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+//import React from 'react';
+//import { Link } from 'react-router-dom';
 import{FaMapPin} from 'react-icons/fa';
 
 const SBanner = () => {
