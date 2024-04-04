@@ -201,3 +201,65 @@ footer a {
 .login-box input[type="submit"]:hover {
     background-color: #0056b3;
 }
+.tbanner{
+    width: 1650px;
+    height: 650px;
+    border: 2px solid black;
+    margin-left: 140px;
+    margin-top: 100px;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+.lastpanel{
+    width:1650px;
+    height: 300px;
+    font-size: 50px;
+    margin-left:140px;
+    margin-top: 100px;
+    font-family: "Fjalla One", sans-serif;
+}
+.lastpanel h1{
+    width: 500px;
+}
+
+.lastpanel .lastsec{
+    width: 1650px;
+    height: 500px;
+    border: 2px solid #DAF7A6 ;
+    margin-top: 50px;
+    border-radius: 50px;
+    background-color: #DAF7A6 ;
+    display: flex;
+}
+
+.lastpanel .lastsec .circle1{
+    width: 450px; /* Set the width and height to create a square */
+    height: 450px;
+    border-radius: 50%; /* Set border-radius to 50% of width or height to make it a circle */
+    background-color: #007bff;
+    border: 2px solid white;
+    margin-left:75px;
+    margin-top: 19px;
+}
+
+
+.lastpanel .lastsec .circle2{
+    width: 450px; /* Set the width and height to create a square */
+    height: 450px; 
+    border-radius: 50%; /* Set border-radius to 50% of width or height to make it a circle */
+    background-color: #007bff;
+    border: 2px solid white;
+    margin-left:75px;
+    margin-top: 19px;
+}
+
+
+.lastpanel .lastsec .circle3{
+    width: 450px; /* Set the width and height to create a square */
+    height: 450px;
+    border-radius: 50%; /* Set border-radius to 50% of width or height to make it a circle */
+    background-color: #007bff;
+    border: 2px solid white;
+    margin-left:75px;
+    margin-top: 19px;
+}
