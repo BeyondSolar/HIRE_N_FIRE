@@ -24,3 +24,17 @@ HirenFire is a revolutionary web application that serves as a bridge between tal
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/HirenFire.git
+
+2. Navigate to the the project directory:
+   ```bash
+   cd hire_n_fire
+3. Install dependencies
+   ```bash
+   npm install
+4. Set up environment variables
+   ```bash
+   PORT=3000
+5. Start the server:
+   ```bash
+   npm start 
+6. Access the application at http://localhost:3000 in your web browser.
