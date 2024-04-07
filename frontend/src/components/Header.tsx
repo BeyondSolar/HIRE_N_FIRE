@@ -1,3 +1,5 @@
+import {Link} from 'react-router-dom';
+
 const Header = () => {
   return (
     <div className="navbar">
@@ -6,7 +8,7 @@ const Header = () => {
     </span>
 
     
-    <a href="#findtalent">Find Talent</a>
+    <a href="#findteams">Find Teams</a>
     <div className="dropdown">
         <button className="dropbtn">Services</button>
         <div className="dropdown-content">
