@@ -4,11 +4,11 @@ const Header = () => {
   return (
     <div className="navbar">
     <span className="batch1">
-    <a href="#home">Home</a>
+    <Link to ="/">Home</Link>
     </span>
 
     
-    <a href="#findteams">Find Teams</a>
+    <Link to='/findteams'>Find Teams</Link>
     <div className="dropdown">
         <button className="dropbtn">Services</button>
         <div className="dropdown-content">
