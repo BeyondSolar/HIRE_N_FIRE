@@ -373,3 +373,49 @@ footer a {
 .circle1:hover .details:hover{
     display: block;
 }
+
+.section1{
+    position:fixed;
+    width: 33vw;
+    height: 100vh;
+    background-color: black;
+    font-size: 25px;
+}
+
+.section1 p{
+    margin-top: 10px;
+    margin-left: 170px;
+    font-family: "Fjalla One", sans-serif;
+    color: white;
+}
+
+.searching1{   
+    position: relative;
+    width:13.8vw;
+    height: 37px;
+    margin-left: 170px;
+    background-color: red;
+    font-family: "Fjalla One", sans-serif;
+}
+
+#suggestions-list{
+    display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+#suggestions-list li {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+  
+#suggestions-list li:hover {
+    background-color: #f0f0f0;
+}
