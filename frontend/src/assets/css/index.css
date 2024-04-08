@@ -12,6 +12,7 @@ body{
 
 .navbar{
     overflow: hidden;
+    display: flex;
     background-color: grey;
 }
 
@@ -374,11 +375,22 @@ footer a {
     display: block;
 }
 
+.full{
+    display: flex;
+}
+
+.section .section2{
+    flex:1;
+    background-color: red;
+    width: 100%;
+    height: 100%;
+}
+
 .section1{
-    position:fixed;
+    position:relative;
     width: 33vw;
     height: 100vh;
-    background-color: black;
+    background-color: white;
     font-size: 25px;
 }
 
@@ -386,36 +398,76 @@ footer a {
     margin-top: 10px;
     margin-left: 170px;
     font-family: "Fjalla One", sans-serif;
-    color: white;
+    color: black;
 }
 
 .searching1{   
     position: relative;
-    width:13.8vw;
+    width:266px;
     height: 37px;
     margin-left: 170px;
-    background-color: red;
+    background-color: white;
     font-family: "Fjalla One", sans-serif;
 }
 
-#suggestions-list{
-    display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-  border: 1px solid #ccc;
-  background-color: #fff;
+#search-input{
+    background-color: lightgrey;
+    cursor:auto;
+    display: flex;
+    border: 2px solid black;
 }
 
-#suggestions-list li {
-    padding: 8px 12px;
+.search-button{
+    position: absolute;
+    display: flex;
+    top: 2px;
+    right: 0px;
+    width: 40px; 
+    height: 100%;
+    background-image: url('res/images/loupe.png'); 
+    background-size: 70%; 
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
     cursor: pointer;
+    margin-right: 0px;
+    border: 1px solid black;
+    border-radius: 10px;
 }
-  
-#suggestions-list li:hover {
-    background-color: #f0f0f0;
+
+.search-button:hover{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.box1{
+    width:266px;
+    display: flex;
+    height: 300px;
+    margin-top: 3rem;
+    margin-left: 11rem;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.box1:hover{
+    box-shadow: 8px 8px 15px rgba(0,0,0,0.3);
+}
+.box2{
+    width:266px;
+    display: flex;
+    height: 300px;
+    margin-top: 2rem;
+    margin-left: 11rem;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s ease;
+}
+.box2:hover{
+    box-shadow: 8px 8px 15px rgba(0,0,0,0.3);
 }
