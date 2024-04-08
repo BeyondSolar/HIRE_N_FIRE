@@ -16,12 +16,12 @@ body{
 }
 
 .navbar a{
-  float: left;
-  display: block;
-  color: white; 
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+    float: left;
+    display: flex;
+    color: white; 
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 .batch1 a{
@@ -307,7 +307,7 @@ footer a {
 }
 
 .lastpanel .lastsec{
-    width: 1650px;
+    /* width: 1650px; */
     height: 500px;
     position:relative;
     border: 2px solid #DAF7A6 ;
