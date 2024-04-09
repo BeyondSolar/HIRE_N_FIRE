@@ -1,4 +1,5 @@
 //import React from "react";
+import {Link} from 'react-router-dom';
 
 const TBanner = ()=>{
     return(
@@ -16,7 +17,7 @@ const TBanner = ()=>{
                     <h4>Control when, where <br/>and how you work?</h4> 
                     <h4>Explore different <br/>ways to earn.</h4>          
                 </div>
-                <button className="findtal">Find Talent</button>
+                <Link id = 'bun' to='/findteams'>Find Talent</Link>
            </div>
         </div>
     );
