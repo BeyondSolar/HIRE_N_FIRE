@@ -4,7 +4,7 @@ import {
 
 import Layout from "./layouts/Layout";
 import Login from "./layouts/Login"
-import FindTeams from "/home/naveen/Documents/FREQUENT/STUDY RELATED STUFFS/CODES/6th semester shit/HIRE N FIRE/HIRE_N_FIRE/frontend/src/layouts/FindTeams.tsx"
+import FindTeams from "./layouts/FindTeams"
 
 const App = ()=>{
   return (
