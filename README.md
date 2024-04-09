@@ -37,4 +37,4 @@ HirenFire is a revolutionary web application that serves as a bridge between tal
 5. Start the server:
    ```bash
    npm start 
-6. Access the application at http://localhost:3000 in your web browser.
+6. Access the application at http://localhost:5173 in your web browser.
