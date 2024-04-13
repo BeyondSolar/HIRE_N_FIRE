@@ -1,11 +1,10 @@
-import SearchSec from "../components/SearchSec";
 import Header from "../components/Header.tsx";
 
 const FindTeams = ()=>{
     return(
         <div className="findtalentspage">
             <Header/>
-            <SearchSec/>
+            {/* <SearchSec/> */}
         </div>
     )
 }

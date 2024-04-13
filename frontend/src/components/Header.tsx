@@ -7,7 +7,7 @@ const Header = () => {
     const {isLoggedIn} = useAppContext();
 
     return (
-        <div className="navbar">
+        <div className="navbar ">
             <span className="batch1">
                 <Link to ="/">Home</Link>
             </span>
@@ -35,7 +35,7 @@ const Header = () => {
             <span className="flex space-x-2">
                 {isLoggedIn ? ( 
                     <>
-                        <Link to='/complete-profile'>Complete Profile</Link>
+                        <Link to='/complete-profile'>Profile</Link>
                         <Link to="/Work">Work</Link>
                         <SignOutButton />
                     </>
