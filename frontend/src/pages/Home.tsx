@@ -1,16 +1,14 @@
-import Banner from "../components/Banner";
-import SBanner from "../components/SBanner";
-import TBanner from "../components/TBanner";
-import Photo2 from "../components/Photo2";
-import LastPanel from "../components/LastPanel";
+import HeroBanner from "../components/HeroBanner";
+import HeroTalentBanner from "../components/HeroTalentBanner";
+import LastPanel from "../components/HeroCompanyBanner";
+import HeroSignUpBanner from "../components/HeroSignUpBanner";
 
 const Home = () => {
     return (
-        <div className="space-y-3">
-            <Banner/>
-            <Photo2/>
-            <SBanner/>
-            <TBanner/>
+        <div className="flex flex-col py-10 overflow-hidden">
+            <HeroBanner/>
+            <HeroSignUpBanner/>
+            <HeroTalentBanner/>
             <LastPanel/>
         </div>
     );
