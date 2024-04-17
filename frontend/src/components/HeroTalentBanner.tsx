@@ -5,7 +5,7 @@ const HeroTalentBanner = ()=>{
     return(
         <div className="hero_talent_banner mt-8 mb-8 flex flex-row bg-black text-white ">
            <div className="hero_talent_img">
-                <img className="max-w-96 object-cover" src="./res/images/monalisa.jpeg" alt="Description of the image" />
+                <img className="max-w-96 object-cover" src="../res/images/monalisa.jpeg" alt="Description of the image" />
            </div>
            <div className="flex flex-col justify-between">
                 <div>
